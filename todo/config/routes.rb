@@ -3,4 +3,5 @@ Rails.application.routes.draw do
 
   # localhost:3000/home --> HomeController, action: index
   get 'home', to: 'home#index'
+  get 'todo', to: 'todo#index'
 end
